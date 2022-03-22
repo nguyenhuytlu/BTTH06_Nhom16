@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sử dụng đối tượng Array</title>
+</head>
+<body>
+    <div class="table">
+        <h1>Thao tác trên mảng</h1>
+        <div class="create--array">
+            <div class="array--button">
+                <button onclick="tao_mang()">Tạo mảng</button>
+            </div>
+            <div class="array--display">
+                <p id="array1"></p>
+            </div>
+        </div>
+        <div class="display--array">
+            <p id="array_arrange"></p>
+        </div>
+        <div class="display--arrange">
+            <input type="radio" id="sort" name="selection" value="sort_array" onclick="sap_tang()"><label for="sort">Sắp xếp tăng</label>
+            <input type="radio" id="reverse" name="selection" value="reverse_array" onclick="sap_giam()"><label for="reverse">Sắp xếp giảm</label>
+        </div>
+        <div class="array--addElement">
+            <label for="addPosition">Thêm vào vị trí </label>
+            <input type="number"id="add-Position" class="input--number value="">
+            <label for="addNumber">Giá trị </label>
+            <input type="number"id="add-Number" class="input--number" value="">
+            <button onclick="them()">Thêm</button>
+        </div>
+    </div>
+
+    <script src="js/YeuCau2.js"></script>
+</body>
+</html>

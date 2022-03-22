@@ -1,0 +1,77 @@
+.table{
+    width: 50%;
+    height: 400px;
+    margin: auto auto;
+    background-color: #CFCFCF;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+.create--array{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.array--button{
+    flex: 1;
+}
+
+button{
+    margin: 15px 10px 10px 10px;
+}
+
+.array--display{
+    flex: 3;
+}
+
+.display--array{
+    width: 80%;
+    height: 50px;
+    top: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+}
+
+#array_arrange{
+    padding-left: 10px;
+}
+
+.display--arrange{
+    width: 80%;
+    height: 50px;
+    top: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.array--addElement{
+    width: 80%;
+    height: 50px;
+    top: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input--number{
+    width: 10%;
+    height: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
